@@ -10,7 +10,7 @@ public abstract class BaseCommand : IConsoleCommand
            Required = false)]
     public bool IsVerbose { get; set; }
 
-    [Option('v', "no-color",
+    [Option('n', "no-color",
          Default = false,
          HelpText = "Reduce color output to the bare minimum",
            Required = false)]
