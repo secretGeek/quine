@@ -1,0 +1,2 @@
+cd .\Quine\bin\Debug\net7.0; dir *.exe
+looky:dir . *.cs -rec -depth 3 | cat | ? { $_.trim() -ne "" -and $_.trim() -notlike "*`/`/*" } | % { $_.Trim() } | sort | group | sort -prop count -desc

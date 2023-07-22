@@ -1,0 +1,2 @@
+.\Quine.sln
+cd .\bin\Debug\net7.0; dir *.exe
