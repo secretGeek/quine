@@ -29,7 +29,7 @@ public class ConsoleCommandError : IConsoleCommandError
 
     public ConsoleCommandError(string name, string details)
     {
-        this.Name = name;
-        this.Details = details;
+        Name = name;
+        Details = details;
     }
 }

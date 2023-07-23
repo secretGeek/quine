@@ -7,10 +7,10 @@ public class QuineToken
 
     public QuineToken(Token tokenType)
     {
-        this.TokenType = tokenType;
-        this.MachineCode = tokenType.GetHashCode();
+        TokenType = tokenType;
+        MachineCode = tokenType.GetHashCode();
     }
 
     public QuineMachineCode ToMachineCode()
-        => new QuineMachineCode(this.MachineCode, this);
+        => new QuineMachineCode(MachineCode, this);
 }

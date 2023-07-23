@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Quine": {
+      "commandName": "Project",
+      "commandLineArgs": "compile --raw-quine-text quine -dx"
+    }
+  }
+}
